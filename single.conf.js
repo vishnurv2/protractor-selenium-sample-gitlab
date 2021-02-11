@@ -1,6 +1,6 @@
 
-username= process.env.LT_USERNAME || "<your username>",
-accessKey=  process.env.LT_ACCESS_KEY || "<your accessKey>",
+username= process.env.LT_USERNAME || "vishnukdas",
+accessKey=  process.env.LT_ACCESS_KEY || "40fkQ3JuRlYMzd4ff7uqkqXCTnwvvkEB7FWJz1sLS2qSqoEDal",
 
 exports.config = {
   'specs': ['./specs/single.js'],
@@ -10,7 +10,7 @@ exports.config = {
   'capabilities': {
     'build': 'protractor-LambdaTest-Single',
     'browserName': 'chrome',
-    'version':'67.0',
+    'version':'88.0',
     'platform': 'WIN10',
     'video': true,
     'network': true,
